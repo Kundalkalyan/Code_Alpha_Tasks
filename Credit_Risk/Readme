@@ -1,0 +1,109 @@
+💳 Credit Risk Prediction using Machine Learning
+📌 Project Overview
+
+This project builds a Credit Risk Prediction System that classifies whether a loan applicant is likely to:
+
+✅ Low Risk (Will Repay Loan)
+
+❌ High Risk (May Default)
+
+The goal is to help financial institutions make data-driven decisions while approving loans.
+
+This project demonstrates:
+
+Data preprocessing
+
+Feature engineering
+
+Model training
+
+Model evaluation
+
+Model saving for deployment
+
+🧠 Problem Statement (Beginner Friendly)
+
+Banks receive thousands of loan applications.
+Not every applicant repays the loan.
+
+Using historical customer data, we train a Machine Learning model to predict:
+
+“Is this customer likely to default?”
+
+This helps reduce financial losses.
+
+⚙️ Workflow
+1️⃣ Data Collection
+
+Dataset contains customer details such as:
+
+Age
+
+Income
+
+Loan amount
+
+Credit history
+
+Employment status
+
+Other financial indicators
+
+2️⃣ Data Preprocessing
+
+Handling missing values
+
+Encoding categorical variables
+
+Feature scaling
+
+Train-Test split
+
+3️⃣ Model Training
+
+Models used:
+
+Logistic Regression
+
+Support Vector Machine (SVM)
+
+Random Forest Classifier
+
+4️⃣ Model Evaluation
+
+Evaluation metrics used:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Confusion Matrix
+
+5️⃣ Model Saving
+
+The trained model is saved using:
+
+import joblib
+joblib.dump(model, "credit_model.pkl")
+
+This allows future deployment without retraining.
+
+🛠️ Technologies Used
+
+Python 🐍
+
+NumPy
+
+Pandas
+
+Matplotlib / Seaborn
+
+Scikit-learn
+
+Joblib
+
+Jupyter Notebook
